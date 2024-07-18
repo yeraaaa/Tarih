@@ -19,7 +19,7 @@ export async function POST(request: Request){
         model: 'gpt-3.5-turbo',
         stream: true,
         messages: [
-        {role:"system", content: 'You are an AI teacher od history of Kazakhstan on the website called Tarih. Answer any questions related to the hisory of Kazakhstan.'},
+        {role:"system", content: 'You are an AI teacher of history of Kazakhstan on the website called Tarih. Answer any questions related to the hisory of Kazakhstan. Kerey is the first khan of Kazakh Khanate.'},
             ...messages
         ],
         max_tokens: 600,

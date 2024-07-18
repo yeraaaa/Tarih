@@ -5,6 +5,11 @@ const cultureData = [
   { name: 'Yurt', description: 'A portable, round tent covered with skins or felt, used as a dwelling by nomads.', photo: '/yurt.jpg' },
   { name: 'Kumis', description: 'A traditional fermented dairy product made from mare\'s milk.', photo: '/kumis.jpg' },
   { name: 'Shapan', description: 'A traditional Kazakh robe often made of velvet and richly embroidered.', photo: '/shapan.jpg' },
+  { name: 'Saukele', description: 'A traditional Kazakh bridal headdress, often ornate and richly decorated.', photo: '/saukele.jpg' },
+  { name: 'Kobyz', description: 'A traditional Kazakh string instrument, similar to a bowed lute.', photo: '/kobyz.jpg' },
+  { name: 'Aitys', description: 'A traditional Kazakh musical contest involving improvisational singing.', photo: '/aitys.jpg' },
+  { name: 'Kazakh tösek', description: 'Hand-woven beds featuring traditional Kazakh patterns and motifs.', photo: '/tosek.jpeg' },
+  { name: 'Tumar', description: 'A traditional Kazakh amulet, believed to protect the wearer from harm.', photo: '/tumar.jpeg' },
 ];
 
 export default function Symbols() {
